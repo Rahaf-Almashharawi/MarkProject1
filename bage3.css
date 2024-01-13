@@ -1,0 +1,50 @@
+body {
+	background-image: url("./img2/pexeles\ 2.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+.my {
+	text-align: center;
+	margin: auto;
+	background-color: #ffffffd1;
+	height: 450px;
+	width: 800px;
+	border-radius: 20px;
+}
+
+#gra {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.line {
+	border: 3px solid black;
+	border-radius: 40px;
+	width: 350px;
+	margin: auto;
+	margin-top: -20px;
+}
+
+#func {
+	margin: auto;
+	margin-top: 230px;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 20px;
+	width: 250px;
+	height: 60px;
+	font-size: large;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+}
+
+#demo4 {
+	margin: auto;
+	margin-top: 60px;
+	font-size: medium;
+	font-weight: bold;
+}

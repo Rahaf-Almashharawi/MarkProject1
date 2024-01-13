@@ -1,0 +1,567 @@
+body {
+	background-color: #fff8f5;
+	margin: 0;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.hi {
+	width: 100%;
+	height: 40px;
+	top: 0;
+	left: 0;
+	background-color: #a31e23 !important;
+	z-index: 2;
+}
+
+#arabic,
+#english {
+	margin-left: 40px;
+	margin-top: 10px;
+	background-color: #a31e23;
+	border: 0 solid #a31e23;
+	color: white;
+	cursor: pointer;
+}
+
+.head {
+	background-color: white;
+	width: 100%;
+	height: 130px;
+
+	/* position: fixed; */
+}
+
+.logo {
+	width: 310px;
+	height: 45px;
+	float: right;
+	margin-right: 60px;
+	margin-top: 22px;
+	cursor: pointer;
+}
+
+header .ULL {
+	float: left;
+	display: flex;
+	list-style: none;
+	margin-left: 60px;
+	margin-top: 50px;
+	font-size: large;
+}
+
+.ULL a {
+	text-decoration: none;
+	justify-content: space-between;
+	padding: 20px;
+	color: black;
+}
+
+.ULL a:hover {
+	background-color: #a31e23;
+	color: white;
+	font-size: larger;
+	transition: 0.4s;
+}
+
+.sect {
+	background-image: url("./img2/hashemite\ university\ 1.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+	margin-bottom: -30px;
+}
+
+.boxs {
+	background-color: #a31e23;
+	text-align: center;
+}
+
+.S1 {
+	background-color: #a31e23;
+}
+
+.Box1,
+.Box2,
+.Box3,
+.Box4 {
+	width: 250px;
+	height: 100px;
+	border: 1px solid #a31e23;
+	display: inline-block;
+	margin-left: 50px;
+	text-align: center;
+	border-radius: 20px;
+	background-color: #a31e23;
+	color: white;
+	margin-bottom: 10px;
+	margin-top: 40px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+#service1 {
+	width: 250px;
+	height: 100px;
+	display: inline-block;
+	margin-left: 5px;
+	text-align: center;
+	color: white;
+	margin-bottom: 10px;
+	margin-top: 40px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.Box1:hover,
+.Box2:hover,
+.Box3:hover,
+.Box4:hover,
+#service1 :hover {
+	font-size: xx-large;
+	transition: 0.9s;
+	color: black;
+}
+
+#StudentMaterials {
+	background-color: #a31e23;
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+
+#Student {
+	text-align: center;
+}
+
+
+.boxb {
+	width: 200px;
+	height: 60px;
+	border: 1px solid white;
+	display: inline-block;
+	margin-left: 80px;
+	text-align: center;
+	border-radius: 20px;
+	background-color: white;
+	margin-top: 10px;
+	font-size: medium;
+
+}
+
+
+.boxb:hover {
+	font-size: small;
+	transition: 0.4s;
+}
+
+#First,
+#Second,
+#Final,
+#first,
+#second,
+#final,
+#first1,
+#second2,
+#final3,
+#firstA,
+#secondB,
+#finalC {
+	background-color: #a31e23;
+	color: white;
+	list-style: none;
+	cursor: pointer;
+	border: 1px solid #a31e23;
+	font-size: medium;
+	line-height: 30px;
+	font-weight: bolder;
+}
+
+#First:hover,
+#Second:hover,
+#Final:hover,
+#first:hover,
+#second:hover,
+#final:hover,
+#first1:hover,
+#second2:hover,
+#final3:hover,
+#firstA:hover,
+#secondB:hover,
+#finalC:hover {
+	background-color: #fff8f5;
+	color: #a31e23;
+	font-size: large;
+}
+
+#aboutUs {
+	background-color: white;
+	margin-top: -10px;
+}
+
+#about {
+	text-align: right;
+	margin-right: 40px;
+	color: black;
+}
+
+.boxW,
+.boxX,
+.boxY,
+.boxZ {
+	width: 250px;
+	height: 60px;
+	border: 1px solid #a31e23;
+	display: inline-block;
+	margin-left: 50px;
+	text-align: center;
+	border-bottom-left-radius: 40px;
+	border-top-right-radius: 40px;
+	background-color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.boxW:hover,
+.boxX:hover,
+.boxY:hover,
+.boxZ:hover {
+	background-color: #a31e23;
+	border: 2px solid white;
+}
+
+#tex3,
+#tex2,
+#tex1,
+#texs {
+	color: black;
+}
+
+#tex3:hover,
+#tex2:hover,
+#tex1:hover,
+#texs:hover {
+	color: white;
+	font-weight: 600;
+}
+
+a {
+	text-decoration: none;
+}
+
+.imags {
+	background-color: white;
+	margin-top: -20px;
+}
+
+#ima {
+	text-align: center;
+}
+
+.img1 {
+	width: 350px;
+	height: 250px;
+	background-image: url("./img2/hashemite\ university\ 1.jpg");
+	background-size: cover;
+	border-radius: 50px;
+	margin-left: 40px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.img1:hover {
+	width: 400px;
+	height: 250px;
+	background-image: url("./img2/hashemite\ university\ 2.jpg");
+	background-size: cover;
+	transition: 0.8s;
+}
+
+.img2 {
+	width: 350px;
+	height: 250px;
+	background-image: url("./img2/hashemite\ university\ 3.jpg");
+	background-size: cover;
+	border-radius: 50px;
+	margin-left: 50px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.img2:hover {
+	width: 400px;
+	height: 250px;
+	background-image: url("./img2/hashemite\ university\ 4.jpg");
+	background-size: cover;
+	transition: 0.8s;
+}
+
+.img3 {
+	width: 350px;
+	height: 250px;
+	background-image: url("./img2/hashemite\ university\ 5.jpg");
+	background-size: cover;
+	border-radius: 50px;
+	margin-left: 30px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.img3:hover {
+	width: 400px;
+	height: 250px;
+	background-image: url("./img2/hashemite\ university\ 6.jpg");
+	background-size: cover;
+	transition: 0.8s;
+}
+
+.img4 {
+	width: 350px;
+	height: 250px;
+	background-image: url("./img2/hashemite\ university\ 7.jpg");
+	background-size: cover;
+	border-radius: 50px;
+	margin-left: 40px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.img4:hover {
+	width: 400px;
+	height: 250px;
+	background-image: url("./img2/hashemite\ university\ 8.jpg");
+	background-size: cover;
+	transition: 0.8s;
+}
+
+.img5 {
+	width: 350px;
+	height: 250px;
+	background-image: url("./img2/hashemite\ university\ 9.jpg");
+	background-size: cover;
+	border-radius: 50px;
+	margin-left: 50px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.img5:hover {
+	width: 400px;
+	height: 250px;
+	background-image: url("./img2/hashemite\ university\ 10.jpg");
+	background-size: cover;
+	transition: 0.8s;
+}
+
+.img6 {
+	width: 350px;
+	height: 250px;
+	background-image: url("./img2/hashemite\ university\ 11.jpg");
+	background-size: cover;
+	border-radius: 50px;
+	margin-left: 30px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.img6:hover {
+	width: 400px;
+	height: 250px;
+	background-image: url("./img2/hashemite\ university\ 12.jpg");
+	background-size: cover;
+	transition: 0.8s;
+}
+
+.img7 {
+	width: 350px;
+	height: 250px;
+	background-image: url("./img2/hashemite\ university\ 13.jpg");
+	background-size: cover;
+	border-radius: 50px;
+	margin-left: 40px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.img7:hover {
+	width: 400px;
+	height: 250px;
+	background-image: url("./img2/hashemite\ university\ 14.jpg");
+	background-size: cover;
+	transition: 0.8s;
+}
+
+.img8 {
+	width: 350px;
+	height: 250px;
+	background-image: url("./img2/hashemite\ university\ 15.jpg");
+	background-size: cover;
+	border-radius: 50px;
+	margin-left: 50px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.img8:hover {
+	width: 400px;
+	height: 250px;
+	background-image: url("./img2/hashemite\ university\ 166.jpg");
+	background-size: cover;
+	transition: 0.8s;
+}
+
+.img9 {
+	width: 350px;
+	height: 250px;
+	background-image: url("./img2/hashemite\ university\ 19.jpg");
+	background-size: cover;
+	border-radius: 50px;
+	margin-left: 30px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.img9:hover {
+	width: 400px;
+	height: 250px;
+	background-image: url("./img2/hashemite\ university\ 18.jpg");
+	background-size: cover;
+	transition: 0.8s;
+}
+
+#contactUs {
+	margin-top: 20px;
+	margin-bottom: -30px;
+}
+
+.container {
+	width: 100%;
+	height: 290px;
+	font-size: x-large;
+	text-align: center;
+	background-color: rgb(109, 110, 110);
+	margin-top: -20px;
+}
+
+#imj {
+	float: right;
+	margin-top: 40px;
+	margin-right: 50px;
+}
+
+.tas {
+	float: right;
+	margin-top: 90px;
+	margin-right: -300px;
+	color: rgb(153, 156, 159);
+	font-size: 20px;
+}
+
+.ph {
+	float: right;
+	margin-top: -10px;
+}
+
+.phone {
+	float: right;
+	width: 25px;
+}
+
+#call {
+	margin-top: -13px;
+}
+
+.ew {
+	color: rgb(153, 156, 159);
+	float: right;
+	margin-top: -10px;
+	margin-right: -150px;
+}
+
+.icons img {
+	margin-top: 10px;
+	margin-right: 10px;
+	float: right;
+	width: 30px;
+	transition: 0.4s;
+	margin-bottom: 0;
+}
+
+.icons img:hover {
+	transform: scale(1.2);
+}
+
+.end {
+	background-color: rgb(35, 35, 35);
+	color: rgb(153, 156, 159);
+	margin-top: -20px;
+}
+
+.copy {
+	margin-right: 100px;
+}
+
+#wll {
+	float: left;
+	font-size: small;
+	margin-top: 200px;
+}
+
+.box {
+	background-color: #a31e23;
+	border: 2px solid#a31e23;
+	text-align: center;
+}
+
+#hallo {
+	color: #fff8f5;
+}
+
+.for1 {
+	border-radius: 20px;
+	width: 260px;
+	height: 50px;
+	border: 1px solid #a31e23;
+}
+
+#cancel,
+#send {
+	width: 90px;
+	height: 25px;
+	border-radius: 20px;
+	border: 1px solid #a31e23;
+	cursor: pointer;
+	font-size: large;
+	font-weight: bold;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+.talk {
+	background-color: white;
+	text-align: center;
+	font-size: 25px;
+}
+
+#see {
+	color: #a31e23;
+	margin-right: 40px;
+}
+
+#uu {
+	font-size: 20px;
+	margin-right: 40px;
+}
+
+#sen {
+	color: #a31e23;
+}
+
+#ter {
+	margin-bottom: 17px;
+}
+
+.color {
+	background-color: rgb(69, 59, 79);
+	height: 20px;
+	margin-top: -15px;
+}

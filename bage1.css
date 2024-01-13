@@ -1,0 +1,76 @@
+body {
+	background-color: #0d71a4;
+}
+
+.pic2 {
+	background-position: center;
+}
+
+.add {
+	font-size: 20px;
+	margin-top: 28px;
+}
+
+.boxC {
+	width: 400px;
+	height: 480px;
+	float: left;
+	border: 3px solid #0d71a4;
+	background-color: white;
+	margin-top: 50px;
+	margin-left: 389px;
+	border-radius: 10px;
+	align-items: center;
+}
+
+.form4 {
+	text-align: center;
+	margin-top: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 12px;
+}
+
+.In1,
+.In2 {
+	width: 250px;
+	height: 45px;
+	font-size: 17px;
+	border-radius: 5px;
+	border: 0.5px solid #0d71a4;
+}
+
+#arabic,
+#english {
+	width: 100px;
+	height: 35px;
+	float: right;
+	color: #0d71a4;
+	background-color: white;
+	font-size: small;
+	border: 1px solid #0d71a4;
+	border-radius: 60px;
+}
+
+#Unevesity_ID,
+#password {
+	color: #0d71a4;
+	direction: ltr;
+	cursor: pointer;
+}
+
+#welcomeText {
+	display: block;
+	margin: 0 90px;
+	margin-left: 150px;
+	text-decoration: none;
+}
+
+#welcomeText>p {
+	padding: 20px;
+	font-size: 19px;
+	color: white;
+	font-weight: bolder;
+	border-radius: 10px;
+	background-color: #0d71a4;
+	margin: auto;
+}
